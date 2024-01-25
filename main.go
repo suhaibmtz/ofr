@@ -18,7 +18,7 @@ func main() {
 		case "-i":
 			lower = true
 		case "-v", "--version":
-			fmt.Println("1.4")
+			fmt.Println("1.5")
 			return
 		case "-n":
 			ShowLine = true
@@ -39,7 +39,7 @@ func main() {
 	Total := 0
 	for {
 		var s string
-		fmt.Scan(&s)
+		fmt.Scanln(&s)
 		if s == "" {
 			break
 		}
